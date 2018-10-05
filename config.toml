@@ -1,4 +1,5 @@
 baseURL = "http://khayyam.me/"
 languageCode = "en-us"
 title = "Khayyam Saleem"
+themesDir = "/home/ham/themes"
 theme = "hyde-hyde"
