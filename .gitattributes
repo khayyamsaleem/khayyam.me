@@ -6,4 +6,14 @@
 /themes/hugo-code-editor/images/screenshot.png filter=lfs diff=lfs merge=lfs -text
 /themes/hugo-code-editor/images/tn.png filter=lfs diff=lfs merge=lfs -text
 /themes/hugo-code-editor/static/fonts/glyphicons-halflings-regular.svg filter=lfs diff=lfs merge=lfs -text
+/site/static/resume.pdf filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/exampleSite/content/portfolio/dera.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/exampleSite/content/portfolio/hyde-hyde.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/exampleSite/content/portfolio/laramod.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/main.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/mobile.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/portfolio.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/post.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/screenshot.png filter=lfs diff=lfs merge=lfs -text
+/site/themes/hyde-hyde/images/tn.png filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
