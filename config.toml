@@ -1,16 +1,32 @@
-baseURL = "http://khayyam.me/"
+baseURL = "https://khayyam.me/"
 languageCode = "en-us"
 title = "Khayyam Saleem"
-theme = "hyde-hyde"
+theme = "hugo-redlounge"
 subtitle = "Educational Technology, Functional Programming, DevOps"
 
 canonifyURLs = true
 pygmentsCodeFences = true
 uglyurls = false
 
+[params]
+  author = "Khayyam Saleem"
+  authorlinkedin = "https://www.linkedin/com/in/khayyamsaleem"
+  copyright = "&copy; 2018 Khayyam Saleem"
+  description = "Student"
+  sidebartitle = "Khayyam Saleem"
+  sidebartagline = "Educational Technology, Functional Programming, DevOps"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+
+
 [[menu.social]]
-    pre = "<i class ='fa fa-github'></i>"
-    url = "https://github.com/khayyamsaleem"
-    identifier = "github"
+  pre = "<i class ='fa fa-github'></i>"
+  url = "https://github.com/khayyamsaleem"
+  identifier = "github"
 
-
+[[menu.social]]
+  pre = "<i class = 'fa fa-linkedin'></i>"
+  url = "https://linkedin.com/in/khayyamsaleem"
+  identifier = "linkedin"
