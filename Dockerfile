@@ -1,7 +1,6 @@
 FROM nginx:stable-alpine
 
 ENV HUGO_VERSION 0.52
-ENV SIGIL_VERSION 0.4.0
 
 WORKDIR /tmp
 RUN apk add --no-cache --virtual .deps curl tar && \
@@ -12,9 +11,9 @@ RUN apk add --no-cache --virtual .deps curl tar && \
     rm -rf /tmp && \
     apk del .deps
 
-WORKDIR /usr/src
+WORKDIR /site
 COPY ./nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
-ADD . /usr/src
+COPY . /site
 RUN hugo --verbose
