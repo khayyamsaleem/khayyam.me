@@ -3,7 +3,6 @@ version: '2'
 services:
   personalsite:
     build: .
-    image: khayyamsaleem/personal-site:${TAG}
     networks:
       - web
     labels:
