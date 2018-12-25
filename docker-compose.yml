@@ -2,6 +2,7 @@ version: '2'
 
 services:
   personalsite:
+    build: .
     image: khayyamsaleem/personal-site
     networks:
       - web
