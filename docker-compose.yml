@@ -3,7 +3,6 @@ version: '2'
 services:
   personalsite:
     build: .
-    image: khayyamsaleem/personal-site:${TAG}
     networks:
       - web
     labels:
@@ -15,4 +14,4 @@ services:
 networks:
   web:
     external:
-      name: server_webgateway
+      name: reverse-proxy_webgateway
