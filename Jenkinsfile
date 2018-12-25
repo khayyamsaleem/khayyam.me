@@ -1,5 +1,7 @@
-node {
-  stage('test'){
-    echo "test"
+pipeline {
+  stages {
+    stage('test'){
+      echo "test"
+    }
   }
 }
