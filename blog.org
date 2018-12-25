@@ -1,0 +1,81 @@
+#+STARTUP: content noindent showall
+#+AUTHOR: Khayyam Saleem
+#+HUGO_BASE_DIR: .
+#+HUGO_AUTO_SET_LASTMOD: t
+
+* Pages
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate: true :nopaging: true
+:EXPORT_HUGO_MENU: :menu main
+:EXPORT_HUGO_SECTION: pages
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+
+** About Me
+:PROPERTIES:
+:EXPORT_FILE_NAME: about-me
+:END:
+
+I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying Computer Science. Strong passion for ed-tech, so this is where I'll be documenting the effort I'm making towards pursuing that passion. Feel free to reach out to me through [[mailto:ksaleem@stevens.edu][email]].
+
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: blog
+:END:
+
+** Topic
+:@devops:
+
+*** DONE Moving to Hugo through Org
+:post:tags:
+CLOSED: [2018-12-25 Tue 8:00]
+:PROPERTIES:
+:EXPORT_DATE: 2018-12-25
+:EXPORT_FILE_NAME: moving-to-hugo
+:END:
+
+I want to try this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [[http://gohugo.io][Hugo]] seemed pretty, this was a natural choice. *Will* post a tutorial about my blog creation and deployment soon. Just a test for now.
+
+**** Source Blocks
+
+Below is a demo of a source block and its execution.
+
+#+BEGIN_SRC ocaml
+  let rec fact_h x acc = match x with
+    | 1 -> acc
+    | n -> fact_h (n-1) (n*acc) in
+      let fact y = fact_h y 1 in
+      fact 5
+#+END_SRC
+
+#+RESULTS:
+: 120
+
+**** Tables
+
+Here's a demo of an org-mode table:
+
+| Index | Value |
+|-------|-------|
+|     0 |     1 |
+|     1 |     1 |
+|     2 |     2 |
+|     3 |     6 |
+|     4 |    24 |
+|     5 |   120 |
+
+*** TODO Next Post
+:PROPERTIES:
+:EXPORT_FILE_NAME: draft-post
+:END:
+
+This is a draft post.
+
+
+* Footnotes
+* COMMENT Local Variables
+:ARCHIVE:
+# Local Variables:
+# eval: (add-hook 'after-save-hook #'org-hugo-export-wim-to-md-after-save :append :local)
+# eval: (auto-fill-mode 1)
+# End:
