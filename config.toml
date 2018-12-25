@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Khayyam Saleem"
 theme = "hyde-hyde"
 metadataformat = "yaml"
-subtitle = "Educational Technology, Functional Programming, DevOps"
+subtitle = "ed tech, functional programming, devops"
 
 canonifyURLs = true
 uglyurls = false
@@ -23,10 +23,10 @@ pygmentsCodeFencesGuessSyntax = true
   github_banner = false
   themeColor = "theme-base-0d"
   copyright = "&copy; 2018 Khayyam Saleem"
-  description = "Educational Technology, Functional Programming, DevOps"
+  description = "ed tech, functional programming, devops"
   sidebartitle = "Khayyam Saleem"
   codeeditor_menu_mostrecentposts = false
-  sidebartagline = "Educational Technology, Functional Programming, DevOps"
+  sidebartagline = "ed tech, functional programming, devops"
 
 [params.social]
   twitter = "khayyamsaleem"
