@@ -4,7 +4,8 @@ pipeline {
     stage('Docker test'){
       agent any
       steps {
-        sh 'ls'
+        checkout scm
+        sh 'docker-compose up --build'
       }
     }
   }
