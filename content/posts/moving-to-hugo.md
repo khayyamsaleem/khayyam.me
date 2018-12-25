@@ -2,8 +2,8 @@
 title = "Moving to Hugo through Org"
 author = ["Khayyam Saleem"]
 date = 2018-12-25T08:00:00-05:00
-lastmod = 2018-12-25T08:56:40-05:00
-tags = ["meta", "blog", "about"]
+lastmod = 2018-12-25T09:25:04-05:00
+tags = ["blog", "about"]
 categories = ["meta"]
 draft = false
 +++
