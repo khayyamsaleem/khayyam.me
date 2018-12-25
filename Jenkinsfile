@@ -1,16 +1,11 @@
-pipeline {
-  agent {
-    docker {
-      image 'alpine:latest'
-      args '-u root'
+node {
+    stage('Build') {
+        echo 'Building....'
     }
-  }
-  stages {
-    stage('test'){
-      steps {
-        echo "test"
-        sh "docker ps -a"
-      }
+    stage('Test') {
+        echo 'Testing....'
     }
-  }
+    stage('Deploy') {
+        echo 'Deploying....'
+    }
 }
