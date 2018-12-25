@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  personalsite:
+    image: khayyamsaleem/personal-site
+    networks:
+      - web
+    labels:
+      - "traefik.backend=personalsite"
+      - "traefik.frontend.rule=Host: localhost, khayyam.me, www.khayyam.me"
+      - "traefik.port=1313"
+    restart: always
+
+networks:
+  web:
+    external:
+      name: server_gateway
