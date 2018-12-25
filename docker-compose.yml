@@ -3,12 +3,12 @@ version: '2'
 services:
   personalsite:
     build: .
-    image: khayyamsaleem/personal-site
+    image: khayyamsaleem/personal-site:${TAG}
     networks:
       - web
     labels:
       - "traefik.backend=personalsite"
-      - "traefik.frontend.rule=Host: localhost, khayyam.me, www.khayyam.me"
+      - "traefik.frontend.rule=Host: khayyam.me, www.khayyam.me"
       - "traefik.port=1313"
     restart: always
 
