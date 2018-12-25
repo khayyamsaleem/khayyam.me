@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  personalsite:
+    image: jguyomard/hugo-builder:latest
+    command: hugo server --bind 0.0.0.0
+    networks:
+      - web
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+    labels:
+      traefik.port: "1313"
+      traefik.frontend.rule: "Host: khayyam.me www.khayyam.me"
+      restart: always
+
+networks:
+  web:
+    external:
+      name: server_webgateway
