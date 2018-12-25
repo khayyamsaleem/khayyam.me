@@ -2,3 +2,15 @@ baseURL = "http://khayyam.me/"
 languageCode = "en-us"
 title = "Khayyam Saleem"
 theme = "hyde-hyde"
+subtitle = "Educational Technology, Functional Programming, DevOps"
+
+canonifyURLs = true
+pygmentsCodeFences = true
+uglyurls = false
+
+[[menu.social]]
+    pre = "<i class ='fa fa-github'></i>"
+    url = "https://github.com/khayyamsaleem"
+    identifier = "github"
+
+
