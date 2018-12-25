@@ -1,11 +1,7 @@
 node {
-    stage('Build') {
-        echo 'Building....'
-    }
+  docker.image('node:7-alpine').inside {
     stage('Test') {
-        echo 'Testing....'
+      sh 'node --version'
     }
-    stage('Deploy') {
-        echo 'Deploying....'
-    }
+  }
 }
