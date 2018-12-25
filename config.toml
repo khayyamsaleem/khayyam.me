@@ -1,24 +1,34 @@
 baseURL = "https://khayyam.me/"
 languageCode = "en-us"
 title = "Khayyam Saleem"
-theme = "hugo-redlounge"
+theme = "hyde-hyde"
 subtitle = "Educational Technology, Functional Programming, DevOps"
 
 canonifyURLs = true
-pygmentsCodeFences = true
 uglyurls = false
+postNavigation=false
+highlightjs = true
+
 
 [params]
   author = "Khayyam Saleem"
   authorlinkedin = "https://www.linkedin/com/in/khayyamsaleem"
+  themeColor = "theme-base-0d"
   copyright = "&copy; 2018 Khayyam Saleem"
-  description = "Student"
+  description = "Educational Technology, Functional Programming, DevOps"
   sidebartitle = "Khayyam Saleem"
   sidebartagline = "Educational Technology, Functional Programming, DevOps"
 
+[params.social]
+  twitter = "khayyamsaleem"
+  github = "khayyamsaleem"
+  linkedin = "khayyamsaleem"
+  gravatar = "khayyam.saleem@gmail.com"
+
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Posts"
+  identifier = "posts"
+  url = "/posts/"
 
 
 [[menu.social]]
