@@ -17,4 +17,4 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
 ADD . /usr/src
-RUN hugo
+RUN hugo --verbose
