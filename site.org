@@ -11,12 +11,14 @@
 :VISIBILITY: children
 :END:
 
-** About
+** DONE About                                                 :blog:about:
 :PROPERTIES:
 :EXPORT_FILE_NAME: about-me
 :END:
 
-I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying Computer Science. Strong passion for ed-tech, so this is where I'll be documenting the effort I'm making towards pursuing that passion. Feel free to reach out to me through [[mailto:ksaleem@stevens.edu][email]]. You can find my resume [[./static/resume.pdf][here]].
+I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying Computer Science. Strong passion for ed-tech, so this is where I'll be documenting the effort I'm making towards pursuing that passion. Feel free to reach out to me via [[mailto:ksaleem@stevens.edu][email]].
+
+You can find my resume [[./static/resume.pdf][here]].
 
 
 * Posts
@@ -26,7 +28,7 @@ I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying 
 
 ** Meta                                                            :@meta:
 
-*** DONE Moving to Hugo through Org                       :meta:blog:about:
+*** DONE Moving to Hugo through Org                           :blog:about:
 CLOSED: [2018-12-25 Tue 8:00]
 :PROPERTIES:
 :EXPORT_FILE_NAME: moving-to-hugo
@@ -63,13 +65,16 @@ Here's a demo of an org-mode table:
 |     4 |    24 |
 |     5 |   120 |
 
-*** TODO Next Post
+
+** DevOps :@devops:
+*** DONE Deploying this Site                                       :devops:
+CLOSED: [2018-12-25 Tue 09:46]
 :PROPERTIES:
-:EXPORT_FILE_NAME: draft-post
+:EXPORT_FILE_NAME: deploying-this-blog
+:VISIBILITY: children
 :END:
 
-This is a draft post.\\
-Here's another line.
+This site is built with Hugo on org-mode. The site is deployed on a DigitalOcean droplet. The intent is to have it build with Jenkins and automatically update the site every time I push to master.
 
 * Footnotes
 * COMMENT Local Variables :ARCHIVE:

@@ -1,22 +1,29 @@
-baseURL = "https://khayyam.me/"
+baseurl = "https://khayyam.me/"
 languageCode = "en-us"
 title = "Khayyam Saleem"
 theme = "hyde-hyde"
+metadataformat = "yaml"
 subtitle = "Educational Technology, Functional Programming, DevOps"
 
 canonifyURLs = true
 uglyurls = false
 postNavigation=false
-highlightjs = true
+enableEmoji = true
 
 
 [params]
   author = "Khayyam Saleem"
+  name = "Khayyam Saleem"
+  locale = "en-US"
   authorlinkedin = "https://www.linkedin/com/in/khayyamsaleem"
+  github_user = "khayyamsaleem"
+  github_repo = "personalsite_v2"
+  github_banner = false
   themeColor = "theme-base-0d"
   copyright = "&copy; 2018 Khayyam Saleem"
   description = "Educational Technology, Functional Programming, DevOps"
   sidebartitle = "Khayyam Saleem"
+  codeeditor_menu_mostrecentposts = false
   sidebartagline = "Educational Technology, Functional Programming, DevOps"
 
 [params.social]
