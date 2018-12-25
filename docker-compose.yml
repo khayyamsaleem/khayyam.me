@@ -14,4 +14,4 @@ services:
 networks:
   web:
     external:
-      name: server_gateway
+      name: server_webgateway
