@@ -1,4 +1,9 @@
 /images/screenshot.png filter=lfs diff=lfs merge=lfs -text
 /themes/hugo-redlounge/images/screenshot.png filter=lfs diff=lfs merge=lfs -text
 /static/resume.pdf filter=lfs diff=lfs merge=lfs -text
+/images/tn.png filter=lfs diff=lfs merge=lfs -text
+/static/fonts/glyphicons-halflings-regular.svg filter=lfs diff=lfs merge=lfs -text
+/themes/hugo-code-editor/images/screenshot.png filter=lfs diff=lfs merge=lfs -text
+/themes/hugo-code-editor/images/tn.png filter=lfs diff=lfs merge=lfs -text
+/themes/hugo-code-editor/static/fonts/glyphicons-halflings-regular.svg filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
