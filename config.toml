@@ -9,6 +9,8 @@ canonifyURLs = true
 uglyurls = false
 postNavigation=false
 enableEmoji = true
+summaryLength = 30
+pygmentsCodeFencesGuessSyntax = true
 
 
 [params]
