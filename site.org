@@ -1,37 +1,36 @@
-#+STARTUP: content noindent showall
+#+STARTUP: noindent showall
 #+AUTHOR: Khayyam Saleem
 #+HUGO_BASE_DIR: .
 #+HUGO_AUTO_SET_LASTMOD: t
 
 * Pages
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate: true :nopaging: true
 :EXPORT_HUGO_MENU: :menu main
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nodate true
 :EXPORT_HUGO_SECTION: pages
-:EXPORT_HUGO_WEIGHT: auto
+:VISIBILITY: children
 :END:
 
-** About Me
+** About
 :PROPERTIES:
 :EXPORT_FILE_NAME: about-me
 :END:
 
-I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying Computer Science. Strong passion for ed-tech, so this is where I'll be documenting the effort I'm making towards pursuing that passion. Feel free to reach out to me through [[mailto:ksaleem@stevens.edu][email]].
+I'm a soon-to-be-graduating senior at Stevens Institute of Technology, studying Computer Science. Strong passion for ed-tech, so this is where I'll be documenting the effort I'm making towards pursuing that passion. Feel free to reach out to me through [[mailto:ksaleem@stevens.edu][email]]. You can find my resume [[./static/resume.pdf][here]].
+
 
 * Posts
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: blog
+:EXPORT_HUGO_SECTION: posts
 :END:
 
-** Topic
-:@devops:
+** Meta                                                            :@meta:
 
-*** DONE Moving to Hugo through Org
-:post:tags:
+*** DONE Moving to Hugo through Org                       :meta:blog:about:
 CLOSED: [2018-12-25 Tue 8:00]
 :PROPERTIES:
-:EXPORT_DATE: 2018-12-25
 :EXPORT_FILE_NAME: moving-to-hugo
+:VISIBILITY: children
 :END:
 
 I want to try this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [[http://gohugo.io][Hugo]] seemed pretty, this was a natural choice. *Will* post a tutorial about my blog creation and deployment soon. Just a test for now.
@@ -69,13 +68,11 @@ Here's a demo of an org-mode table:
 :EXPORT_FILE_NAME: draft-post
 :END:
 
-This is a draft post.
-
+This is a draft post.\\
+Here's another line.
 
 * Footnotes
-* COMMENT Local Variables
-:ARCHIVE:
+* COMMENT Local Variables :ARCHIVE:
 # Local Variables:
-# eval: (add-hook 'after-save-hook #'org-hugo-export-wim-to-md-after-save :append :local)
-# eval: (auto-fill-mode 1)
+# org-hugo-auto-export-on-save: t
 # End:
