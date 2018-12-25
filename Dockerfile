@@ -1,9 +1,20 @@
-FROM jguyomard/hugo-builder:latest
+FROM nginx:stable-alpine
 
-WORKDIR /app
+ENV HUGO_VERSION 0.52
+ENV SIGIL_VERSION 0.4.0
 
-ADD . /app
+WORKDIR /tmp
+RUN apk add --no-cache --virtual .deps curl tar && \
+    curl -L https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz > \
+    hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+    tar -zxvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+    mv ./hugo /bin/hugo && \
+    rm -rf /tmp && \
+    apk del .deps
 
-EXPOSE 1313
+WORKDIR /usr/src
+COPY ./nginx.conf /etc/nginx/nginx.conf
+EXPOSE 80
 
-CMD ["hugo", "server"]
+ADD . /usr/src
+RUN hugo
