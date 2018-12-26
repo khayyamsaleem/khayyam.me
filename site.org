@@ -35,7 +35,7 @@ CLOSED: [2018-12-25 Tue 8:00]
 :VISIBILITY: children
 :END:
 
-I want to try this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [[http://gohugo.io][Hugo]] seemed pretty, this was a natural choice. *Will* post a tutorial about my blog creation and deployment soon. Just a test for now.
+I want to try out this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [[http://gohugo.io][Hugo]] seemed pretty, this was a natural choice. *Will* post a tutorial about my blog creation and deployment soon. Just a test for now.
 
 **** Source Blocks
 

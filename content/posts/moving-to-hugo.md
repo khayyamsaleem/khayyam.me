@@ -2,13 +2,13 @@
 title = "Moving to Hugo through Org"
 author = ["Khayyam Saleem"]
 date = 2018-12-25T08:00:00-05:00
-lastmod = 2018-12-25T09:25:04-05:00
+lastmod = 2018-12-26T18:36:54-05:00
 tags = ["blog", "about"]
 categories = ["meta"]
 draft = false
 +++
 
-I want to try this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [Hugo](http://gohugo.io) seemed pretty, this was a natural choice. **Will** post a tutorial about my blog creation and deployment soon. Just a test for now.
+I want to try out this new blog format. Since I've really started to enjoy org-mode in emacs, and I think that the themes in [Hugo](http://gohugo.io) seemed pretty, this was a natural choice. **Will** post a tutorial about my blog creation and deployment soon. Just a test for now.
 
 
 ## Source Blocks {#source-blocks}
