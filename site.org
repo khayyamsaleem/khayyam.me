@@ -68,13 +68,13 @@ Here's a demo of an org-mode table:
 
 ** DevOps :@devops:
 *** DONE Deploying this Site                                       :devops:
-CLOSED: [2018-12-25 Tue 09:46]
+CLOSED: [2018-12-25 Tue 19:35]
 :PROPERTIES:
 :EXPORT_FILE_NAME: deploying-this-blog
 :VISIBILITY: children
 :END:
 
-This site is built with Hugo on org-mode. The site is deployed on a DigitalOcean droplet. The intent is to have it build with Jenkins and automatically update the site every time I push to master.
+This site is built with Hugo on org-mode. The site is deployed on a DigitalOcean droplet. The intent is to have it build with Jenkins and automatically update the site every time I push to master. As of now, I've been able to set up a CI/CD workflow. Currently working on adding git-hooks. It has been a wild ride.
 
 * Footnotes
 * COMMENT Local Variables :ARCHIVE:
