@@ -2,7 +2,7 @@
 title = "Deploying this Site"
 author = ["Khayyam Saleem"]
 date = 2018-12-25T19:35:00-05:00
-lastmod = 2018-12-25T20:45:02-05:00
+lastmod = 2018-12-25T20:54:12-05:00
 tags = ["devops"]
 categories = ["devops"]
 draft = false
@@ -18,3 +18,5 @@ After you've got your project working locally, you can figure out all the detail
 
 1.  Do you want a static site? What else needs to be running for your application to work?
 2.  Do you want to deploy to the same server as your build server? Or would you like it to end up on another droplet or VPS?
+3.  Are you ready to hate yourself for hours?
+4.  This is mostly just sample text to test the webhooks, I will write a real tutorial later.
