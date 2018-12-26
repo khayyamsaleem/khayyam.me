@@ -1,14 +1,16 @@
 pipeline {
   agent any
   stages {
-    stage('Test'){
+    stage('Testing'){
       agent {
-        docker {
-          image 'jojomi/hugo'
-        }
-        steps {
-          sh 'hugo version'
-          sh 'hugo benchmark'
+        docker 'jojomi/hugo'
+        stages {
+          stage('Hugo Info'){
+            steps {
+              sh 'hugo version'
+              sh 'hugo benchmark'
+            }
+          }
         }
       }
     }
