@@ -2,7 +2,7 @@
 title = "Deploying this Site"
 author = ["Khayyam Saleem"]
 date = 2018-12-25T19:35:00-05:00
-lastmod = 2018-12-25T20:35:24-05:00
+lastmod = 2018-12-25T20:42:28-05:00
 tags = ["devops"]
 categories = ["devops"]
 draft = false
@@ -13,4 +13,7 @@ This site is built with Hugo on org-mode. The site is deployed on a DigitalOcean
 
 ## Getting Started {#getting-started}
 
-First, prioritize getting everything going on your local version. Don't prioritize deployment until you at least have something to show, because it is quite a hassle to get going in the beginning.
+First, prioritize getting everything going on your local version. Don't prioritize deployment until you at least have something to show, because it is quite a hassle to get going in the beginning.<br />
+After you've got your project working locally, you can figure out all the details of your deployment.
+
+1.  Do you want a static site? What else needs to be running for your application to work?
