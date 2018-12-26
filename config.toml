@@ -1,4 +1,5 @@
 languageCode = "en-us"
+baseurl = "https://khayyam.me"
 title = "Khayyam Saleem"
 theme = "hyde-hyde"
 metadataformat = "yaml"
