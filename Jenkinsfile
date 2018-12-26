@@ -15,24 +15,44 @@ pipeline {
       agent any
       steps {
         checkout scm
-        sh 'git submodule update --init --recursive'
-        sh 'docker stop $(docker ps -a | grep personal | awk \'{ print $1 }\')'
-        sh 'docker rm $(docker ps -a | grep personal | awk \'{ print $1 }\')'
-        sh 'docker rmi $(docker images | grep personal | awk \'{ print $3 }\')'
-        sh 'docker-compose up --build -d'
-        echo 'successfully deployed'
+        script {
+          if (BRANCH_NAME == "master") {
+            sh 'git submodule update --init --recursive'
+            sh 'docker stop $(docker ps -a | grep personal | awk \'{ print $1 }\')'
+            sh 'docker rm $(docker ps -a | grep personal | awk \'{ print $1 }\')'
+            sh 'docker rmi $(docker images | grep personal | awk \'{ print $3 }\')'
+            sh 'docker-compose up --build -d'
+            echo 'successfully deployed'
+          } else {
+            echo 'Don\'t have a dev server yet, so just go ahead and push'
+          }
+        }
       }
     }
   }
   post {
     failure {
-      echo 'no images currently built'
-      sh 'docker-compose up --build -d'
-      setBuildStatus("Build succeeded", "SUCCESS");
+      script {
+        if (BRANCH_NAME == 'master'){
+          echo 'no images currently built'
+          sh 'docker-compose up --build -d'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        } else {
+          echo 'Something is wrong with develop???'
+          setBuildStatus("Build failed", "FAILURE");
+        }
+      }
     }
     success {
-      echo 'rebuilt image successfully'
-      setBuildStatus("Build succeeded", "SUCCESS");
+      script {
+        if (BRANCH_NAME == 'master'){
+          echo 'rebuilt image successfully'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        } else {
+          echo 'Develop is good to merge!'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        }
+      }
     }
   }
 }
