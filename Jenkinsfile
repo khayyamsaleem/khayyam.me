@@ -13,11 +13,11 @@ pipeline {
         echo 'successfully deployed'
       }
     }
-    post {
-      failure {
-        echo 'no images currently built'
-        sh 'docker-compose up --build -d'
-      }
+  }
+  post {
+    failure {
+      echo 'no images currently built'
+      sh 'docker-compose up --build -d'
     }
   }
 }
