@@ -24,7 +24,7 @@ pipeline {
             sh 'docker-compose up --build -d'
             echo 'successfully deployed'
           } else {
-            echo 'Don't have a dev server yet, so just go ahead and push'
+            echo 'Don\'t have a dev server yet, so just go ahead and push'
           }
         }
       }
