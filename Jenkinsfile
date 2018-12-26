@@ -32,13 +32,27 @@ pipeline {
   }
   post {
     failure {
-      echo 'no images currently built'
-      sh 'docker-compose up --build -d'
-      setBuildStatus("Build succeeded", "SUCCESS");
+      script {
+        if (BRANCH_NAME == 'master'){
+          echo 'no images currently built'
+          sh 'docker-compose up --build -d'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        } else {
+          echo 'Something is wrong with develop???'
+          setBuildStatus("Build failed", "FAILURE");
+        }
+      }
     }
     success {
-      echo 'rebuilt image successfully'
-      setBuildStatus("Build succeeded", "SUCCESS");
+      script {
+        if (BRANCH_NAME == 'master'){
+          echo 'rebuilt image successfully'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        } else {
+          echo 'Develop is good to merge!'
+          setBuildStatus("Build succeeded", "SUCCESS");
+        }
+      }
     }
   }
 }
