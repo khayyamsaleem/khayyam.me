@@ -11,9 +11,9 @@ RUN apk add --no-cache --virtual .deps curl tar && \
     rm -rf /tmp && \
     apk del .deps
 
-WORKDIR /site
+WORKDIR /usr/src
 COPY ./nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
-COPY . /site
+ADD . /usr/src
 RUN hugo --verbose
