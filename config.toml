@@ -1,5 +1,6 @@
 languageCode = "en-us"
 title = "Khayyam Saleem"
+BaseURL = "https://khayyam.me/"
 theme = "hyde-hyde"
 metadataformat = "yaml"
 subtitle = "ed tech, functional programming, devops"
