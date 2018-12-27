@@ -87,7 +87,8 @@ After you've got your project working locally, you can figure out all the detail
 5) Now I'm trying out merging a pull-request. Still no public good has been done.
 
    
-*** TODO Traefik                                                   :devops:
+*** DONE Traefik                                                   :devops:
+CLOSED: [2018-12-27 Thu 11:27]
 :PROPERTIES:
 :EXPORT_FILE_NAME: traefik-tutorial
 :END:
