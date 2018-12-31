@@ -94,6 +94,10 @@ CLOSED: [2018-12-27 Thu 11:27]
 :END:
 Traefik is a reverse proxy that can help you deploy lots of things at once on your VPS.
 
+This blog is deployed with nginx serving a static folder. Nginx is a lightweight, powerful web server for both static and dynamic content.
+
+With Traefik, I am able to orchestrate many services on a single VPS, without having to pay per droplet for each service that I wish to deploy
+
 * Footnotes
 * COMMENT Local Variables :ARCHIVE:
 # Local Variables:
