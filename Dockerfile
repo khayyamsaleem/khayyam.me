@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-ENV HUGO_VERSION 0.69.0
+ENV HUGO_VERSION 0.89.0
 
 WORKDIR /tmp
 RUN apk update && apk upgrade && apk add --no-cache curl tar git && \
@@ -21,6 +21,6 @@ FROM nginx:stable-alpine
 
 WORKDIR /usr/src
 COPY ./nginx.conf /etc/nginx/nginx.conf
-EXPOSE 80
+EXPOSE 1313
 
 COPY --from=0 /app/public /usr/src/public
