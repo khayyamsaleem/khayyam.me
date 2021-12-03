@@ -2,6 +2,4 @@ module ham-blog
 
 go 1.14
 
-require (
-	github.com/spf13/hyde v1.0.1 // indirect
-)
+require github.com/spf13/hyde v1.1.0 // indirect

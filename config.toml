@@ -15,3 +15,6 @@ theme = "github.com/spf13/hyde"
   themeColor = "theme-base-0e"
 
 googleAnalytics = "UA-174955037-1"
+
+[markup.goldmark.renderer]
+unsafe = true
