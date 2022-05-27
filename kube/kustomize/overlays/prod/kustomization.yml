@@ -1,0 +1,12 @@
+bases:
+  - ../../base/
+
+resources:
+  - "deployment.yml"
+  - "ingress.yml"
+
+images:
+  - name: app-image
+    newName: ghcr.io/khayyamsaleem/personalsite_v2:prod
+
+namespace: personal-site

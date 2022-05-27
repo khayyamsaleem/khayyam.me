@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personal-site
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: personal-site
+  template:
+    metadata:
+      labels:
+        app: personal-site
+    spec:
+      imagePullSecrets:
+        - name: ghcr-creds
+      containers:
+        - name: personal-site
+          image: app-image
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 1313
