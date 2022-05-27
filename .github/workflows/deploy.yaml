@@ -1,5 +1,9 @@
 name: Deploy personal site
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 on:
   push:
     branches:
