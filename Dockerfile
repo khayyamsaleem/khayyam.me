@@ -17,10 +17,6 @@ ADD . /app
 ENV GO111MODULE=on
 RUN hugo --verbose
 
-FROM nginx:stable-alpine
-
-WORKDIR /usr/src
-COPY ./nginx.conf /etc/nginx/nginx.conf
 EXPOSE 1313
 
-COPY --from=0 /app/public /usr/src/public
+CMD ["hugo", "server", "--bind", "0.0.0.0"]
