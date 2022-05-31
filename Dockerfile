@@ -19,4 +19,4 @@ RUN hugo --verbose
 
 EXPOSE 1313
 
-CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseUrl", "\"\""]
+CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseUrl", "\"\"", "--appendPort", "false", "--liveReload", "false", "--verbose"]
