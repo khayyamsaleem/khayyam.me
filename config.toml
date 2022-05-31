@@ -1,5 +1,5 @@
 title = "Khayyam Saleem"
-baseURL = "/"
+baseUrl = "/"
 
 theme = "github.com/spf13/hyde"
 

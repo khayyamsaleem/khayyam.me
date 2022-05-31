@@ -19,4 +19,4 @@ RUN hugo --verbose
 
 EXPOSE 1313
 
-CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseUrl", "\"\"", "--appendPort", "false", "--disableLiveReload", "--verbose"]
+CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseUrl", "https://khayyam.me", "--appendPort=false", "--disableLiveReload", "--verbose"]
