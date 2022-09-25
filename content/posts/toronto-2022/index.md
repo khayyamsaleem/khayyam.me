@@ -15,6 +15,8 @@ I'm going to figure out the best style that works for me first, and then once I 
 I'll focus more on the consumability, readability, and interest-level in the content for other readers. Until then, apologies to anyone that comes across these and has to 
 deal with the scatterbrained approach.
 
+## Leaning into the scatterbrain today
+
 For an initial characterization of how this approach of "leaning into the scatterbrain" is working out for me so far, let's look at today's journey so far:
 
 1. Woke up on a sunny Sunday in Amsterdam, Netherlands. Still gotta start the blog on this spot.
