@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-ENV HUGO_VERSION 0.89.0
+ENV HUGO_VERSION 0.104.0
 
 WORKDIR /tmp
 RUN apk update && apk upgrade && apk add --no-cache curl tar git && \
@@ -14,9 +14,4 @@ WORKDIR /app
 
 ADD . /app
 
-ENV GO111MODULE=on
 RUN hugo --verbose
-
-EXPOSE 1313
-
-CMD ["hugo", "server", "--bind", "0.0.0.0", "--baseUrl", "https://khayyam.me", "--appendPort=false", "--disableLiveReload", "--verbose"]
