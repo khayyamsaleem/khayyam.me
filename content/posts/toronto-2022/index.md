@@ -17,7 +17,7 @@ deal with the scatterbrained approach.
 
 ## Leaning into the scatterbrain today
 
-For an initial characterization of how this approach of "leaning into the scatterbrain" is working out for me so far, let's look at today's journey so far:
+For an initial characterization of how this approach of "leaning into the scatterbrain" is working out for me so far, let's look at today's writing journey:
 
 1. Woke up on a sunny Sunday in Amsterdam, Netherlands. Still gotta start the blog on this spot.
 2. Brewed a latte using our Airbnb host's super swanky espresso machine.
