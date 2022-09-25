@@ -1,5 +1,0 @@
-{
-  "yaml.schemas": {
-    "https://json.schemastore.org/github-action.json": "file:///home/khayyam/dev/personalsite_v2/.github/workflows/deploy.yaml"
-  }
-}
