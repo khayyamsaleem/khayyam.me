@@ -1,20 +1,10 @@
 title = "Khayyam Saleem"
-baseUrl = "/"
+baseUrl = "https://khayyam.me"
 
-theme = "github.com/spf13/hyde"
-
-[Menus]
-  main = [
-    { Name = "Github", URL = "https://github.com/khayyamsaleem" },
-    { Name = "LinkedIn", URL = "https://linkedin.com/in/khayyamsaleem" },
-    { Name = "Resume", URL = "/resume_2022.pdf" }
-  ]
+theme = "github.com/khayyamsaleem/ham-hugo"
 
 [params]
   description = "ed-tech, functional programming, devops"
-  themeColor = "theme-base-0e"
-
-googleAnalytics = "UA-174955037-1"
 
 [markup.goldmark.renderer]
 unsafe = true

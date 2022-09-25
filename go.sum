@@ -1,3 +1,13 @@
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925084357-b259310b51ad h1:zJSYverI104SnciJM2adFwHdmHT5B3hHAQvJX4ypV0k=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925084357-b259310b51ad/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925085358-dab4ac66480a h1:DIIW2RYactIqLX3g0iu2wAAHBDxFOgGbnNdVFK4FtZc=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925085358-dab4ac66480a/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925085504-ffbc18781a91 h1:0l3m+uMakvkjd+ObALMBzPvhmHzO7TFaK5pFg+xeiSw=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925085504-ffbc18781a91/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925090253-c3aa64958612 h1:WNdzpmv+L172nmYADpxaAWMgGITIlFhLJnvi0L8OAbU=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925090253-c3aa64958612/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925090623-db4c79bcaa13 h1:rHRstPlWlxrn2AGQ4OrCwPdEy1GQJz2rn3PwpOd3HmY=
+github.com/khayyamsaleem/ham-hugo v0.0.0-20220925090623-db4c79bcaa13/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
 github.com/spf13/hyde v1.0.1 h1:9FFrMttgTequ+obCL86dGxY05EXPc4fGnt54O5wP3VU=
 github.com/spf13/hyde v1.0.1/go.mod h1:CSmLWCbXXInaA5zAkwAQ0EbwpR7Pe74eSmDxdGspoCY=
 github.com/spf13/hyde v1.1.0 h1:ZKOakmybNrsaUQCZsf/XwwGIp6NHjUuU3klBgVuoees=
