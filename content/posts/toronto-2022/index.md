@@ -21,19 +21,19 @@ For an initial characterization of how this approach of "leaning into the scatte
 2. Brewed a latte using our Airbnb host's super swanky espresso machine.
 3. Got disgusted with the fact that I was hosting this tiny static site on a DigitalOcean droplet for so many years and juggling webhooks and github actions and gitlab-ci pipelines 
 and Jenkins servers when DigitalOcean App Platform makes it so easy.
-  - created app platform static site resource, linked to the github repo for this site
-  - leveraged existing dockerfile to deploy the site, worked literally on the first try
-  - added CNAME record to Cloudflare DNS to map my domain to the new DigitalOcean App Platform deployment
-  - Took a snapshot of my old droplet, turned it off.
+    - created app platform static site resource, linked to the github repo for this site
+    - leveraged existing dockerfile to deploy the site, worked literally on the first try
+    - added CNAME record to Cloudflare DNS to map my domain to the new DigitalOcean App Platform deployment
+    - Took a snapshot of my old droplet, turned it off.
 4. Got disgusted with the fact that I've built up so much knowledge of [hugo](https://gohugo.io/) across multiple jobs but still haven't built my own theme in entirety
-  - much love to the [spf13/hyde](https://github.com/spf13/hyde) theme that's kept this blog looking pretty while it gathered dust. Hopefully force-switching to my own 
+    - much love to the [spf13/hyde](https://github.com/spf13/hyde) theme that's kept this blog looking pretty while it gathered dust. Hopefully force-switching to my own 
   [nascent theme](https://github.com/khayyamsaleem/ham-hugo) will keep me honest with regards to keeping up with new hugo features and sharing what I learn with the 
   hugo community that has helped me so much over the years.
 5. Got as far as writing the [Travel](#travel) section, rearranged the content a couple times, and then realized I will be adding plenty of photos to this site and git is not
   going to store them all for me.
-  - Leaning towards retaining Google Photos as my primary photo dumpster, and the ones that I curate for this blog can be replicated into DigitalOcean spaces and linked via CDN.
-  - I want to be able to include photos in these blogs both in the big full-width page-interrupting presentation mechanism and in the lil tooltip hover mechanism for when I'm being
-  coy or for when something is definitely only going to be interesting to me and not to any readers.
+    - Leaning towards retaining Google Photos as my primary photo dumpster, and the ones that I curate for this blog can be replicated into DigitalOcean spaces and linked via CDN.
+    - I want to be able to include photos in these blogs both in the big full-width page-interrupting presentation mechanism and in the lil tooltip hover mechanism for when I'm being
+    coy or for when something is definitely only going to be interesting to me and not to any readers.
 
 ## Travel
 
