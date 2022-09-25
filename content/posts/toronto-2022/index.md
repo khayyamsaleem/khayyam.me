@@ -47,7 +47,7 @@ picked up hobby photography. I am hoping that it can remain a hobby, despite the
 
 ## Finally, Toronto
 
-I visited Toronto in June of 2022. It was a short flight over from NYC, and it was my first time trialing my brand new bags that I grabbed at an REI in L.A. earlier this year.
+I visited Toronto in June of 2022. It was a short flight over from NYC, and it was my first time trialing my brand new bags (_this is where I wanted an image tooltip_) that I grabbed at an REI in L.A. earlier this year.
 I was very happy with the aesthetic of the bags, and the Fjallraven Kanken has become my new daily driver. The North Face Base Camp Duffel is an awesome color and is comfortable
 on my back and stores a ton, but could use a cross-body strap for some added convenience. I'll look into that.
 
