@@ -4,3 +4,5 @@ github.com/khayyamsaleem/ham-hugo v0.0.0-20220925102556-03e9c2ea1576 h1:1zIU1x87
 github.com/khayyamsaleem/ham-hugo v0.0.0-20220925102556-03e9c2ea1576/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
 github.com/khayyamsaleem/ham-hugo v0.0.0-20220925102755-a5c5cfaa4b06 h1:fNCHrD6x5i3iW/NLT9bI15Wb7yi/IK4LWbUh7T9Kby0=
 github.com/khayyamsaleem/ham-hugo v0.0.0-20220925102755-a5c5cfaa4b06/go.mod h1:RrsVmwyH3ZCjA8+nKxWQ0Z8qmMll3kCkP9NLq89F04c=
+github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4 h1:Wpj9u6J58ijG9jPHZbnMsSK+bMiU4UnyqVaA2fNPMWY=
+github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4/go.mod h1:AEOc9YAQqiKhSTl+b4euG7JAWDUlgHqkOT3nU5BkPuw=

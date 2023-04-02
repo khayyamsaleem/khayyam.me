@@ -1,10 +1,41 @@
 title = "Khayyam Saleem"
 baseUrl = "https://khayyam.me"
+copyright = "khayyam - 2023"
+enableEmoji = true
+summaryLength = 25
 
-theme = "github.com/khayyamsaleem/ham-hugo"
+theme = "github.com/lgaida/mediumish-gohugo-theme"
+
 
 [params]
-  description = "ed-tech, functional programming, devops"
+  logo = "/profile.png"
+  description = "softie"
+
+[params.author]
+name = "khayyam"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[params.social]
+  github = "khayyamsaleem"
+  linkedin = "khayyamsaleem"
+  twitter = "khayyamsaleem"
+  instagram = "its.haaam"
+  mastodon = "https://hachyderm.io/@khayyam"
+
+[params.index]
+  picture = "/profile.png"
+  title = "Khayyam Saleem"
+  subtitle = "softie"
+  alertbar = false
+  mdText = """
+  just trying to figure it all out. posting about travel, programming, and 
+
+  any thoughts unique enough to warrant a share
+  """
+
+[[menu.main]]
+    name = "posts"
+    identifier = "posts"
+    url = "/blog"

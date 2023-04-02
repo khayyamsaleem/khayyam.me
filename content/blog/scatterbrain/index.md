@@ -1,8 +1,9 @@
 ---
-title:  "Toronto 2022 and getting back into writing"
+title:  "musing on attempting to write again"
 date: 2022-09-25T11:22:22+02:00
+draft: true
 tags:
-  - travel
+  - thoughts
 ---
 
 ## Blogging
@@ -39,20 +40,10 @@ and Jenkins servers when DigitalOcean App Platform makes it so easy.
 
 ## Travel
 
-This is the first of my travel posts! I have been getting around a bit more lately, but I've been cursed with painfully low retention when it comes to memory. 
+I have been getting around a bit more lately, but I've been cursed with painfully low retention when it comes to memory. 
 I wanted to start documenting some of the activities and thoughts I get up to when I visit a new place, as well as curate the more interesting photos I take.
 
 The urban infrastructure in my home area (Hudson County, NJ) is some of the best that the U.S. has to offer, and I benefit from the public transportation, walkability,
 bikability, proximity of essentials, and frothing entertainment scene so much. Accordingly, seeking out and experiencing new urban spaces with similar benefits 
 has become one of my primary goals of travel. Aside from scoping out viable options for where I might settle, it is also allowing me tons of camera fodder, as I've recently
 picked up hobby photography. I am hoping that it can remain a hobby, despite the NYC metro area social insistence that every hobby should be a side-hustle.
-
-## Finally, Toronto
-
-I visited Toronto in June of 2022. It was a short flight over from NYC, and it was my first time trialing my brand new bags (_this is where I wanted an image tooltip_) that I grabbed at an REI in L.A. earlier this year.
-I was very happy with the aesthetic of the bags, and the Fjallraven Kanken has become my new daily driver. The North Face Base Camp Duffel is an awesome color and is comfortable
-on my back and stores a ton, but could use a cross-body strap for some added convenience. I'll look into that.
-
-![CN Tower](https://juul-personal-photos.nyc3.cdn.digitaloceanspaces.com/travel/toronto-2022/cn-tower-001.jpg)
-
-... _to be continued_
