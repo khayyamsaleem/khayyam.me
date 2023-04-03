@@ -1,0 +1,67 @@
+{{ $name := .Get 0 }}
+{{ $spot := .Page.Resources.GetMatch (printf "%s/index.json" $name) }}
+{{ $metadata := $spot | transform.Unmarshal }}
+{{ $images := .Page.Resources.Match (printf "%s/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}" $name) }}
+
+<div class="spot">
+  <a href="#" class="spot-link" data-toggle="modal" data-target="#spot-modal-{{ $name }}">
+    {{ $metadata.name }}
+  </a>
+  <span class="spot-description">: {{ $metadata.description }}</span>
+  <div class="modal fade" id="spot-modal-{{ $name }}" tabindex="-1" role="dialog" aria-labelledby="spot-modal-label-{{ $name }}" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="spot-modal-label-{{ $name }}"><a class="spot-link" href="{{ $metadata.link }}" target="_blank" referrerpolicy="no-referrer">{{ $metadata.name }}</a></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="spot-carousel-{{ $name }}" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              {{ range $index, $img := $images }}
+              <li data-target="#spot-carousel-{{ $name }}" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
+              {{ end }}
+            </ol>
+            <div class="carousel-inner">
+              {{ range $index, $img := $images }}
+              <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                <img class="d-block w-100" src="{{ $img.RelPermalink }}" alt="{{ $metadata.name }}">
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-footer-content">
+            <p>{{ $metadata.description }}</p>
+            <p><a href="https://www.google.com/maps/search/{{ $metadata.address | urlize }}" target="_blank">{{ $metadata.address }}</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .spot .spot-link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed gray;
+    transition: all 0.2s ease-in-out; 
+  }
+  .spot .spot-link:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .spot .modal-header .modal-title {
+    margin-bottom: 0;
+  }
+  .spot .modal-footer-content {
+    width: 100%; 
+  }
+  .spot .modal-footer-content p {
+    line-height: 1;
+  }
+</style>

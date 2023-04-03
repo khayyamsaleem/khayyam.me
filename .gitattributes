@@ -23,4 +23,16 @@
 /content/blog/first/blogging-cover.png filter=lfs diff=lfs merge=lfs -text
 /content/blog/toronto-2022/toronto-2022-cover.jpg filter=lfs diff=lfs merge=lfs -text
 /static/profile.png filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/bags.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02115.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02121.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02122.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02126.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02128.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02129.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/planta-queen/DSC02131.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/rolltation/DSC01934.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/rolltation/DSC01940.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/rolltation/DSC01943.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/rolltation/DSC01944.JPG filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
