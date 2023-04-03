@@ -108,7 +108,7 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 
 ## Food
 
-Toronto seems to be really big on high quality vegan food.
+Like any other internationally-renowned metropolis, Toronto is famed for its food. All my (brief) research seemed to indicate that Toronto was actually an amazing place for vegan food. Though I'm not a vegan myself, and I've been hard-pressed to find vegan food I like at restaurants, I gave Toronto a chance on the good word of the internet and it DID NOT DISAPPOINT. If I lived in a place where I could get vegan food of this quality and flavor so readily, I might just switch over to _the other side_.
 
 ### PLANTA Queen
 
