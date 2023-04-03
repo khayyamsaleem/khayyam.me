@@ -48,4 +48,16 @@
 /content/blog/toronto-2022/graffiti-alley/DSC02308.JPG filter=lfs diff=lfs merge=lfs -text
 /content/blog/toronto-2022/graffiti-alley/DSC02312.JPG filter=lfs diff=lfs merge=lfs -text
 /content/blog/toronto-2022/graffiti-alley/DSC02318.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/earls-restaurant/DSC02145.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/earls-restaurant/DSC02148.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/earls-restaurant/DSC02149.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/earls-restaurant/DSC02152.JPG filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/karahi-point/IMG_20220621_225258.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/karahi-point/IMG_20220621_225305__01.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kayaking-lake-ontario/IMG_20220619_141659.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kayaking-lake-ontario/IMG_20220619_141707.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kayaking-lake-ontario/IMG_20220619_143018.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kayaking-lake-ontario/IMG_20220619_143637.jpg filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kayaking-lake-ontario/VID_20220619_143841.gif filter=lfs diff=lfs merge=lfs -text
+/content/blog/toronto-2022/kims-convenience/DSC02076.JPG filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff

@@ -30,4 +30,11 @@
 	{{ $style := resources.Get . }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">
 	{{- end }}
+
+	<style>
+		.container p img {
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
 </head>

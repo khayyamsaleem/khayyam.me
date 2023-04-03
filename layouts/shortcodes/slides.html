@@ -1,0 +1,20 @@
+{{ $name := (.Get 0) | anchorize }}
+{{ $spot := .Page.Resources.GetMatch (printf "%s/index.json" $name) }}
+{{ $metadata := $spot | transform.Unmarshal }}
+{{ $images := .Page.Resources.Match (printf "%s/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}" $name) }}
+
+<div id="slides-carousel-{{ $name }}" class="carousel slide" data-ride="carousel" style="margin: 20px;">
+  <ol class="carousel-indicators">
+    {{ range $index, $img := $images }}
+    <li data-target="#slides-carousel-{{ $name }}" data-slide-to="{{ $index }}"
+      class="{{ if eq $index 0 }}active{{ end }}"></li>
+    {{ end }}
+  </ol>
+  <div class="carousel-inner">
+    {{ range $index, $img := $images }}
+    <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+      <img class="d-block w-100" src="{{ $img.RelPermalink }}" alt="{{ $metadata.name }}">
+    </div>
+    {{ end }}
+  </div>
+</div>

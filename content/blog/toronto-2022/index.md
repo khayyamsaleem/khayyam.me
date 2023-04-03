@@ -18,19 +18,21 @@ tags:
 - Meeting up with Abeer and Uzlifat (fam)
 - {{< spot "TTC" >}}
 - {{< spot "graffiti-alley" >}}
-- Trying native Canadian food like poutine
+- Trying authentic Canadian food like poutine
 - Seeing the CN Tower from tons of angles throughout the city
 - Art Gallery of Ontario, Aga Khan and Royal Ontario Museums
 - Biking the coast of Lake Ontario, from downtown, through High Park, to Humber Bay Park and back
-- Kayaking in Lake Ontario
+- {{< spot "kayaking-lake-ontario" >}}
 - Buying Canadian-made clothes from Roots
-- Visiting the "real-life" Kim's Convenience store
+- {{< spot "kims-convenience" >}}
 
 **Food**:
 
 - {{< spot "rolltation" >}}
 - [La Bartola](https://www.google.com/maps/place/La+Bartola/@43.6558125,-79.4220368,15.64z/data=!4m6!3m5!1s0x882b35cc07b2d713:0x253d63b76861b7ee!8m2!3d43.655437!4d-79.4135957!16s%2Fg%2F11j8rf5d1b): a vegan Mexican spot on College with delicious vegan tacos.
 - {{< spot "planta-queen" >}}
+- {{< spot "earls-restaurant" >}}
+- {{< spot "karahi-point" >}}
 
 ## Why did I go here?
 
@@ -58,5 +60,48 @@ It was my first time trialing my brand new bags that I grabbed at an REI in L.A.
 
 I was very happy with the aesthetic of the bags, and the Fjallraven Kanken has become my new daily driver. The North Face Base Camp Duffel is an awesome color and is comfortable on my back and stores a ton, but could use a cross-body strap for some added convenience. I'll look into that.
 
-I stayed at the Hilton Toronto, which was super nice! Conveniently located a short walk away from Union Station.
+I stayed at the Hilton Toronto, which was super nice! Conveniently located a short walk away from Union Station. It was comfortable, centrally located,
+and kept very clean. I even had a view!
 
+## Transit
+
+Though this should be taken with a grain of salt because I didn't live in Toronto, nor did I have any kind of commute, I was really pleased with the TTC.
+On every route I took, the station and train cars or buses were very clean. In the downtown area at least, I had no trouble getting from point A to point B.
+
+From the get-go, I was able to take a free shuttle from Billy Bishop Toronto City Airport into downtown, right to Union Station.
+
+The PRESTO transit card was super convenient, I was able to pick one up for $6 (a little pricey but it's definitely better than a MetroCard) at a TTC subway station, and reload it as needed.
+
+{{< slides "TTC" >}}
+
+It was a little less convenient to get to some destinations just outside the city, like the Aga Khan Museum. In those scenarios, I just bit the bullet and waited an extra long time for the bus, or took a rideshare.
+
+Another interesting pillar of Toronto pedestrian transit was the PATH. Since I came in June and the weather was nice, I didn't have as much use for the massive network of underground tunnels in Toronto. However, I took a small jaunt through the PATH just because I'd never seen anything like it before. I found it to be SUPER humid and gross and dirty and dark and depressing. I appreciate that it exists, as it seems like a major investment in pedestrians and a walkable city, and I'm sure residents are able to get value out of it in the harsh winter months that Toronto has. However, the darkness combined with low ceilings and little-to-no policing / security are enough to keep me away.
+
+## Biking
+
+## Public spaces
+
+### Downtown
+
+### High Park
+
+### Humber Bay Park
+
+### Kensington Market
+
+### Graffiti Alley
+
+### College
+
+## Museums
+
+### Royal Ontario Museum
+
+### Aga Khan Museum
+
+### Art Gallery of Ontario
+
+## Food
+
+## etcetera
