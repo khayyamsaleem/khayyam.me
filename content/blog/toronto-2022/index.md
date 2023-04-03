@@ -110,11 +110,28 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 
 Toronto seems to be really big on high quality vegan food.
 
+### PLANTA Queen
+
+Though I found out later that this is an international franchise, this PLANTA was one of the most gorgeous and visually impressive restaurants I've ever been in. I enjoyed my experience so much that I found a PLANTA in Manhattan when I got back home and tried to relive the experience there! This PLANTA on Queen St in Toronto really blew me away with the decor, the flavor, and the well-made drinks. This was the restaurant that made me believe all the rumors I was hearing about Toronto being an amazing place for vegan food.
+
 {{< slides "planta-queen" >}}
+
+### Earl's Restaurant and Kitchen
+
+I found this place while looking for a late-night bite somewhere close to my hotel. Earl's had a dark and sexy mood to it, and exuded class without seeming too stuffy. Perfect balance between fancy and casual. I'm not sure exactly what these tiny sushi tacos were made out of (watermelon sushi or something like that???). I'll cross reference against the menu if I ever go back. But this place was exactly what I needed at 11:30PM.
 
 {{< slides "earls-restaurant" >}}
 
+### Rolltation
+
+This was likely just a quick bite for me while I was on the go, but I found some photos and it is a Toronto-only franchise (for now), so thought it would be worth sharing. Though creating something like a sushi-burrito is probably a culture crime, I really did enjoy this because the ingredients were fresh and the restaurant had a good atmosphere! I'm a sucker for a neon sign.
+
 {{< slides "rolltation" >}}
+
+### Karahi Point
+
+Is this cheating if it's technically in Missisauga? I went to this Pakistani restaurant with Abeer and Uzlifat and it didn't disappoint! It was a ways away from downtown Toronto, but I really tasted the spice and authenticity in the karahi, and this kind of thing is HARD to find in the NY Metro Area 
+(outside of my parent's house, of course). Something about having good company must have made the food taste even better... Unfortunately, I don't have any up-close-and-personal photos of this particular meal because I was RAVENOUS and we all started digging in the moment the food hit the table.
 
 {{< slides "karahi-point" >}}
 
