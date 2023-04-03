@@ -80,6 +80,8 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 
 ## Biking
 
+{{< slides "toronto-biking" >}}
+
 ## Public spaces
 
 ### Downtown
@@ -92,6 +94,8 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 
 ### Graffiti Alley
 
+{{< slides "graffiti-alley" >}}
+
 ### College
 
 ## Museums
@@ -103,5 +107,16 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 ### Art Gallery of Ontario
 
 ## Food
+
+Toronto seems to be really big on high quality vegan food.
+
+{{< slides "planta-queen" >}}
+
+{{< slides "earls-restaurant" >}}
+
+{{< slides "rolltation" >}}
+
+{{< slides "karahi-point" >}}
+
 
 ## etcetera
