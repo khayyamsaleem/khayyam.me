@@ -16,7 +16,8 @@ tags:
 **Highlights**:
 
 - Meeting up with Abeer and Uzlifat (fam)
-- Taking trips on the TTC with my Presto card as soon as I got out of Billy Bishop
+- {{< spot "TTC" >}}
+- {{< spot "graffiti-alley" >}}
 - Trying native Canadian food like poutine
 - Seeing the CN Tower from tons of angles throughout the city
 - Art Gallery of Ontario, Aga Khan and Royal Ontario Museums
@@ -57,4 +58,5 @@ It was my first time trialing my brand new bags that I grabbed at an REI in L.A.
 
 I was very happy with the aesthetic of the bags, and the Fjallraven Kanken has become my new daily driver. The North Face Base Camp Duffel is an awesome color and is comfortable on my back and stores a ton, but could use a cross-body strap for some added convenience. I'll look into that.
 
-... _to be continued_
+I stayed at the Hilton Toronto, which was super nice! Conveniently located a short walk away from Union Station.
+

@@ -1,4 +1,4 @@
-{{ $name := .Get 0 }}
+{{ $name := (.Get 0) | anchorize }}
 {{ $spot := .Page.Resources.GetMatch (printf "%s/index.json" $name) }}
 {{ $metadata := $spot | transform.Unmarshal }}
 {{ $images := .Page.Resources.Match (printf "%s/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}" $name) }}
@@ -12,7 +12,9 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="spot-modal-label-{{ $name }}"><a class="spot-link" href="{{ $metadata.link }}" target="_blank" referrerpolicy="no-referrer">{{ $metadata.name }}</a></h5>
+          <h5 class="modal-title" id="spot-modal-label-{{ $name }}">
+            <a class="spot-link" href="{{ $metadata.link }}" target="_blank" referrerpolicy="no-referrer">{{ $metadata.name }}</a>
+          </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -36,7 +38,9 @@
         <div class="modal-footer">
           <div class="modal-footer-content">
             <p>{{ $metadata.description }}</p>
-            <p><a href="https://www.google.com/maps/search/{{ $metadata.address | urlize }}" target="_blank">{{ $metadata.address }}</a></p>
+            {{ with $metadata.address }}
+              <p><a href="https://www.google.com/maps/search/{{ . | urlize }}" target="_blank">{{ . }}</a></p>
+            {{ end }}
           </div>
       </div>
     </div>
