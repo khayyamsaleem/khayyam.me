@@ -1,0 +1,29 @@
+{{ $name := (.Get 0) | anchorize }}
+{{ $logs := .Page.Resources.GetMatch (printf "%s/index.json" $name) }}
+{{ $meta := $logs | transform.Unmarshal }}
+
+<div id="slides-carousel-{{ $name }}" class="carousel slide" data-ride="carousel" style="margin: 20px;">
+  <ol class="carousel-indicators">
+    {{ range $index, $entry := $meta }}
+    <li data-target="#slides-carousel-{{ $name }}" data-slide-to="{{ $index }}"
+      class="{{ if eq $index 0 }}active{{ end }}"></li>
+    {{ end }}
+  </ol>
+  <div class="carousel-inner">
+    {{ $rsc := .Page.Resources }}
+    {{ range $index, $entry := $meta }}
+    <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+      <div style="display: flex; flex-direction: row;">
+        <div style="width: 30%; font-size: 0.7em">
+          <ul style="margin: 0;">
+          {{ range $entry.activities }}
+            <li style="margin: 0; padding: 0">{{ . }}</li>
+          {{ end }}
+          </ul>
+        </div>
+        <img style="width: 70%;" src="{{ $rsc.Get (printf "%s/%s" $name $entry.img) }}" alt="{{ $entry.name }}" />
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

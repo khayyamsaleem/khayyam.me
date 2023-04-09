@@ -6,7 +6,6 @@ tags:
   - photography
 ---
 
-
 ## TLDR
 
 **Destination**: Toronto, Ontario, CA
@@ -33,6 +32,7 @@ tags:
 - {{< spot "planta-queen" >}}
 - {{< spot "earls-restaurant" >}}
 - {{< spot "karahi-point" >}}
+
 
 ## Why did I go here?
 
@@ -135,5 +135,8 @@ Is this cheating if it's technically in Missisauga? I went to this Pakistani res
 
 {{< slides "karahi-point" >}}
 
-
 ## etcetera
+
+### Daily Logs
+
+{{< logs "tor-daily-logs" >}}
