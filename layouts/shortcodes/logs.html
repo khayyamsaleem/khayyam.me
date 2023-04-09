@@ -3,12 +3,6 @@
 {{ $meta := $logs | transform.Unmarshal }}
 
 <div id="slides-carousel-{{ $name }}" class="carousel slide" data-ride="carousel" style="margin: 20px;">
-  <ol class="carousel-indicators">
-    {{ range $index, $entry := $meta }}
-    <li data-target="#slides-carousel-{{ $name }}" data-slide-to="{{ $index }}"
-      class="{{ if eq $index 0 }}active{{ end }}"></li>
-    {{ end }}
-  </ol>
   <div class="carousel-inner">
     {{ $rsc := .Page.Resources }}
     {{ range $index, $entry := $meta }}
@@ -27,4 +21,12 @@
     </div>
     {{ end }}
   </div>
+  <a class="carousel-control-prev" href="#slides-carousel-{{ $name }}" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides-carousel-{{ $name }}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
