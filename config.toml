@@ -1,4 +1,4 @@
-title = "Khayyam Saleem"
+title = "khayyam"
 baseUrl = "https://khayyam.me"
 copyright = "khayyam - 2023"
 enableEmoji = true
@@ -24,7 +24,7 @@ unsafe = true
 
 [params.index]
   picture = "/profile.png"
-  title = "Khayyam Saleem"
+  title = "khayyam"
   subtitle = "softie"
   alertbar = false
   mdText = """
