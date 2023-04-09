@@ -28,9 +28,9 @@ unsafe = true
   subtitle = "softie"
   alertbar = false
   mdText = """
-  just trying to figure it all out. posting about travel, programming, and 
-
-  any thoughts unique enough to warrant a share
+  just trying to figure it all out.
+  
+  posting about travel, programming, and any thoughts unique enough to warrant a share
   """
 
 [[menu.main]]
