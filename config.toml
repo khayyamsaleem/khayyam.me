@@ -8,7 +8,6 @@ theme = "github.com/lgaida/mediumish-gohugo-theme"
 
 
 [params]
-  logo = "/profile.png"
   description = "softie"
 
 [params.author]
