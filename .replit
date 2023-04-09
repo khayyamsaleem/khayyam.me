@@ -1,4 +1,4 @@
-run = "hugo server -D --bind 0.0.0.0 --port 443 --baseurl https://personalsitev2.khayyamsaleem.repl.co"
+run = "hugo server -D --bind 0.0.0.0 --port 443 --baseURL https://personalsitev2.khayyamsaleem.repl.co"
 
 hidden=[".config"]
 
