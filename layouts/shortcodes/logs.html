@@ -13,15 +13,16 @@
     {{ $rsc := .Page.Resources }}
     {{ range $index, $entry := $meta }}
     <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-      <div style="display: flex; flex-direction: row;">
-        <div style="width: 30%; font-size: 0.7em">
+      <div style="display: flex; flex-direction: column;">
+        <div class="logs-entry-title" style="text-align: center; padding: 30px; font-weight: bolder">{{ $entry.name }}</div>
+        <img src="{{ $rsc.Get (printf "%s/%s" $name $entry.img) }}" alt="{{ $entry.name }}" />
+        <div style="font-size: 0.7em; padding: 30px 0;">
           <ul style="margin: 0;">
           {{ range $entry.activities }}
             <li style="margin: 0; padding: 0">{{ . }}</li>
           {{ end }}
           </ul>
         </div>
-        <img style="width: 70%;" src="{{ $rsc.Get (printf "%s/%s" $name $entry.img) }}" alt="{{ $entry.name }}" />
       </div>
     </div>
     {{ end }}
