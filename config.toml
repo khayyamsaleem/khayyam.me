@@ -6,7 +6,6 @@ summaryLength = 25
 
 theme = "github.com/lgaida/mediumish-gohugo-theme"
 
-
 [params]
   description = "softie"
 
