@@ -193,6 +193,8 @@ Is this cheating if it's technically in Missisauga? I went to this Pakistani res
 
 I think it would be obnoxious to blast social media with all these, so here are the photos I took of myself in Toronto, mostly just random mirror selfies as this was a solo trip.
 
+{{< slides "me-in-toronto" >}}
+
 ### Daily Logs
 
 {{< logs "tor-daily-logs" >}}
