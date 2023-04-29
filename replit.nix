@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.killall
     pkgs.go
     pkgs.vim
     pkgs.hugo

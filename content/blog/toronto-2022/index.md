@@ -24,6 +24,11 @@ tags:
 - {{< spot "kayaking-lake-ontario" >}}
 - Buying Canadian-made clothes from Roots
 - {{< spot "kims-convenience" >}}
+- Museums
+  - {{< spot "rom" >}}
+  - {{< spot "aga-khan" >}}
+  - {{< spot "ago" >}}
+- {{< spot "me-in-toronto" >}}
 
 **Food**:
 
@@ -82,29 +87,76 @@ Another interesting pillar of Toronto pedestrian transit was the PATH. Since I c
 
 {{< slides "toronto-biking" >}}
 
+Toronto's bike infrastructure was a huge help on this trip. A good friend once told me, **"bikes are the cheat code to a city"**, and every time I visit a new city, this resonates with me because I would not have been able to explore Toronto as well as I did without [PBSC](https://www.pbsc.com/cities/toronto-bike-share), Toronto's bike share program.
+
+![Biking in High Park](./toronto-biking/high-park.gif)
+
 ## Public spaces
+
+The public spaces I saw in Toronto really amped up my experience in the city. I've taken the liberty of listing some of my favorite places down below.
 
 ### Downtown
 
+![Downtown Toronto](./downtown.jpg)
+
+![Rogers Building](./rogers.JPG)
+
+I'm getting a little exhausted so I'm gonna listicle some bits of the rest of this post.
+
+- Yonge-Dundas Square
+  - This is like the "Times Square" of Toronto, though not nearly as frenetic and chaotic.
+- Holt Renfrew
+  - This was a gorgeous upscale shopping center where I could get some gifts for Abeer and Uzlifat on my first day, from stores like Nordstrom and YSL.
+- Yonge St, Bloor St
+  - Both downtown food streets
+- Rogers Building
+  - Really gorgeous corporate headquarters tucked in the middle of a bunch of taller, skinnier skyscrapers downtown. Pictured above.
+
 ### High Park
+
+I was excited about High Park because it seemed to be the closest I could get to something like Central Park, though it was not in the center at all. High Park lies on the far west side of Toronto's coastline, and it took quite a bit of biking to get there from downtown.
+
+However, once I got there, it really was nice to get a long ride in and walk through the free-to-public zoo in the park.
+
+Should I visit Toronto again, I think I might take the trip to Don Valley Brick Works Park on the east side of the city instead. The Don River runs through this park, so it should make for some nice scenic rides or walks.
 
 ### Humber Bay Park
 
-### Kensington Market
+This park was even further west than High Park, but Humber Bay really ticked all the boxes! It wasn't SO BIG that I couldn't navigate around the park with ease, and it had paved bike trail running all through it and along the coast of Lake Ontario. I was even able to stop by a beach and read for a stretch!
 
-### Graffiti Alley
+![Reading on the Humber Bay Shore](./humber-bay-shore.jpg)
+
+### "Graffiti Alley" (Rush Lane)
+
+This was a super cool public art phenomenon, where the Queen Street West Business Improvement Association worked to legalize street art and create an area of cultural significance. It was just a LONG stretch of really interesting graffiti, and I took photos of some of the most beautiful ones.
 
 {{< slides "graffiti-alley" >}}
 
-### College
-
 ## Museums
+
+As a global city, Toronto of course has some grade A museums featuring acclaimed and well-curated exhibits.
+
+For my favorite ones, I'll probably fork them out to different posts and update with links here later. For now, here are the highlights.
 
 ### Royal Ontario Museum
 
+{{< slides "rom" >}}
+
 ### Aga Khan Museum
 
+This museum was my favorite, though it was SUPER out of the way on the far east side of Toronto. I had to take two buses with a super infrequent run schedule to get here.
+
+However, it simply could not be overlooked.
+
+They really went out of their way to curate an experience that immerses you in a diversified, beautiful story of Islam's history, geography, and associated cultures. This could be felt down to the architecture of the building.
+
+{{< slides "aga-khan" >}}
+
 ### Art Gallery of Ontario
+
+This was just your classic big-city modern art museum. However, the sprawling sculpture halls here really blew me away. I will definitely visit again and try to write down more of what I observed for a separate post. But for now, while my memory escapes me, here's the photos I could dig up.
+
+{{< slides "ago" >}}
 
 ## Food
 
@@ -136,6 +188,10 @@ Is this cheating if it's technically in Missisauga? I went to this Pakistani res
 {{< slides "karahi-point" >}}
 
 ## etcetera
+
+### Me in Ontario
+
+I think it would be obnoxious to blast social media with all these, so here are the photos I took of myself in Toronto, mostly just random mirror selfies as this was a solo trip.
 
 ### Daily Logs
 
