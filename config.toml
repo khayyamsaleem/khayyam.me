@@ -37,3 +37,9 @@ unsafe = true
     name = "posts"
     identifier = "posts"
     url = "/blog"
+
+[module]
+# replacements = "github.com/khayyamsaleem/hugo-lightbox-gallery -> ../../open-source/hugo-lightbox-gallery"
+[[module.imports]]
+  path = "github.com/khayyamsaleem/hugo-lightbox-gallery"
+  ignoreConfig = true
