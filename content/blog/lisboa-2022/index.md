@@ -4,6 +4,7 @@ date: 2023-05-20T20:21:28-04:00
 draft: true
 tags:
   - travel
+  - europe
   - photography
 ---
 
